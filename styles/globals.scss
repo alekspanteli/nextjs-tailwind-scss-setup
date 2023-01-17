@@ -6,11 +6,8 @@
 @use 'variables/colors';
 
 
-
-
 @layer base{
   body {
     background: colors.$red;
   }
-  
 }
