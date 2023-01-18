@@ -7,11 +7,12 @@ module.exports = {
   theme: {
     extend: {},
   },
-  blocklist: [
-    'container',
-  ],
+  // blocklist: [
+  //   'container',
+  // ],
   plugins: [],
   corePlugins: {
     preflight: false,
+    container: false
   }
 }
