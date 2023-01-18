@@ -3,12 +3,13 @@
 @use "tailwindcss/base";
 @use "tailwindcss/components";
 @use "tailwindcss/utilities";
-@use 'variables/colors';
-@use 'container';
+// @use 'variables/colors';
+@use 'colors';
+@use 'layout';
 
 
 @layer base{
   body {
-    background: colors.$red;
+    background: colors.$clr-primary;
   }
 }
