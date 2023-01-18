@@ -1,15 +1,32 @@
-
-
 @use "tailwindcss/base";
 @use "tailwindcss/components";
 @use "tailwindcss/utilities";
 // @use 'variables/colors';
-@use 'colors';
-@use 'layout';
+// @use "colors";
+@use "colors" as c;
+@use "layout";
+@use "font-sizes" as *;
+@use "mixins";
+
+// @layer base {
+//   body {
+//     background: colors.$clr-primary;
+//   }
+// }
+
+// @layer components {
+//   .card {
+//     font-size: font-sizes.$fs-400;
+//     @include mixins.media-query(mixins.$medium) {
+//       font-size: font-sizes.$fs-500;
+//     }
+//   }
+// }
 
 
 @layer base{
-  body {
-    background: colors.$clr-primary;
+  h1{
+    color: c.$clr-primary;
+    font-size: $fs-400;
   }
 }

@@ -7,7 +7,10 @@ export default function HomePage() {
         <title>Home</title>
       </Head>
       <div className="container">
-        <h1 className="text-3xl font-bold underline border  border-sky-500">Hello world!</h1>
+        <h1 className="">Hello world!</h1>
+        <div className="card">
+          test
+        </div>
       </div>
     </>
   );
