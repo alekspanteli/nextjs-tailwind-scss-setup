@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  blocklist: [
+    'container',
+  ],
   plugins: [],
   corePlugins: {
     preflight: false,

@@ -4,6 +4,7 @@
 @use "tailwindcss/components";
 @use "tailwindcss/utilities";
 @use 'variables/colors';
+@use 'container';
 
 
 @layer base{
@@ -11,4 +12,3 @@
     background: colors.$red;
   }
 }
-
